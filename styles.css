@@ -1,0 +1,28 @@
+.items{
+    display:grid;
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px 100px;
+    grid-gap: 10px;
+    justify-content: center;
+}
+.block{
+    background-color: white;
+    border-radius: 10px;
+}
+h1{
+    color: #FAB201; 
+    -webkit-text-stroke: 5px white;
+    text-align: center;
+    font-size: 110px;
+    font-family: sans-serif;
+}
+body{
+    background-color:dodgerblue ;
+}
+footer{
+    padding: 50px;
+    text-align: center;
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+}
